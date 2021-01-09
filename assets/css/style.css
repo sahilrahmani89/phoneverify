@@ -1,0 +1,248 @@
+/*======================
+	1.General Code
+==========================*/
+
+
+html{
+	overflow-x:hidden;
+}
+
+body {
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 28px;
+  overflow-x: hidden;
+  font-weight: 400;
+  color: #555b62;
+  left: 0;
+  background-color:#fff;
+  transition: 0.3s;
+}
+.section-padding{
+	padding:80px 0;
+}
+
+
+.overlay{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(29, 48, 79,0.2);
+}
+
+.col-content-center{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+
+/*----------------------
+	1.1. Typography
+------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #07152b;
+  margin: 0 auto 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  width: 100%;
+  word-break:break-word;
+  line-height:1.4;
+}
+
+h1 {
+  font-size: 58px;
+  margin-bottom: 30px;
+  font-weight:700;
+  line-height:1.2;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 38px;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 20px;
+  margin-bottom:10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  word-break:break-word;
+  font-family: 'Lora', serif;
+}
+
+a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
+  font-weight: 400;
+  color: #626262;
+  cursor: pointer;
+  font-family: 'Lora', serif;
+  word-break:break-word;
+  letter-spacing: 0.8px;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #c63433;
+}
+
+
+blockquote {
+  background: #f4f4f4;
+  position: relative;
+  padding: 20px;
+  line-height: 25px;
+  border-left: 5px solid #eee;
+}
+
+blockquote p {
+  color: #022147;
+  font-size: 16px;
+  font-weight: normal;
+  word-break:break-word;
+}
+
+blockquote h6 {
+  color: #ff6a48;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin-bottom:0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+
+article {
+  margin: 0 auto 40px;
+}
+
+article h2 a {
+  color: #000;
+}
+
+select {
+    background: #fff4d9 none repeat scroll 0 0;
+    border: 1px solid #eeecec;
+    color: #555555;
+    font-size: 14px;
+    height: 38px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+table {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+/*------------------ assignment-----------*/
+.mobile-num{
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 70px;
+  background-color: #f7fbfc;
+  box-shadow: 20px 20px 0 0 rgba (247, 251, 252, 0.4);
+}
+.assingment{
+  padding: 80px 0;
+}
+.center{
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  align-self: center;
+  margin: 0 auto;
+}
+.mob-digit{
+  position: relative;
+  margin: 20px;
+}
+.mob-digit input{
+  width: 30px;
+  border:0;
+  display: inline-block;
+  border-bottom:2px solid #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  margin: 0 2px;
+}
+.blue{
+  color:#0056b3;
+}
+.mob-digit input:focus{
+  outline: 0;
+}
+.response-list li {
+  display: inline-block;  
+}
+.response-list li:first-child{
+  float : left;
+}
+.response-list li:last-child{
+  float: right;
+}
+.response-list{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.verify-btn{
+  margin-top: 30px;
+}
+ 
+
+
